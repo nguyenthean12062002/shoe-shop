@@ -16,6 +16,9 @@
   
 }
 @media(max-width :723px){
+  .search-icon{
+    display: none;
+  }
     .backgr-main::after{
         display: none;
     }

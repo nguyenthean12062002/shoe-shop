@@ -1,4 +1,4 @@
-let show = document.getElementById("import-search").value;
+const show = document.getElementById("import-search").value;
 function hisSearch() {
   document.getElementById("show-history_text").innerHTML = show;
 }
