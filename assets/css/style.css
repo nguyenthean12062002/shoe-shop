@@ -521,6 +521,9 @@ z-index: 99;
   font-weight: 650;
   font-family:Arial, Helvetica, sans-serif;
 }
+.preview-product__item-name--mobile{
+  display: none;
+}
 .preview-product__item-name1{
   position: absolute;
   left: -100px;

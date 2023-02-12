@@ -6,7 +6,7 @@
         display: none;
     }
 }
-@media screen and (max-width:1023px) {
+@media screen and (max-width:1023px) {  
     .header-navbar-brand{
         display: none;
     }
@@ -14,4 +14,87 @@
 }
 @media (min-width :724px ) and (max-width :1023px){
   
+}
+@media(max-width :723px){
+    .backgr-main::after{
+        display: none;
+    }
+    .header-navbar__logo {
+        width: 50px;
+        display: none;
+    }
+    .app-container-search{
+        top: 10%;
+    }
+    .search-input{
+        width: 160px;
+        height: 26px;
+    }
+    .preview-product__item-price{
+        display: none;
+    }
+    .preview-product__item-name{
+        display: none;
+    }
+    .preview-product__item-name--mobile{
+        display: block;
+        position: relative;
+        width: 250px;
+        font-size: 1.5rem;
+        color: var(--red-color);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        top: -113px;
+        left: -100px;
+    }
+    .preview-product__item-img{
+        width: 280px;
+        left: 26%;
+    }
+    .preview-product__item-sales{
+        width: 60px;
+        height: 26px;
+        right: -20%;
+        font-size: 0.7rem;
+    }
+    .preview-product__item-desc{
+        width: 100%;
+        bottom: -200px;
+        left: 15%;
+    }
+    .preview-product__backgr{
+        width: 100%;
+        margin: 0;
+    }
+    .preview-product__item-folow{
+        margin-top: 30px;
+        padding-left:125px;
+    }
+    .preview-product__item-folow-img{
+          display: none;
+    }
+    .category-item__add{
+        display: none;
+    }
+    .chat-mess-modal{
+    display: none;
+    }
+    .preview-product__item-child {
+        width: 100%;
+    }
+    .footer-main-contact__title,
+    .footer-main-contact__list{
+        text-align: center;
+        display: block;
+    }
+    .footer-main-feedback__list-title{
+        text-align: center;
+        padding: 10px 0px 0px 0px;
+    }
+    .footer-main-feedback__input{
+        text-align: center;
+        display: block;
+    }
+    .footer-main-feedback__input-icon{
+        right: 20%;
+    }
 }
