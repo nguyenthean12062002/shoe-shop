@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/base.css">
+  <link rel="stylesheet" href="./assets/css/responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&family=Montserrat:wght@100&family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="./favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet">
+  <title>Shoe-Good</title>
+</head>
+<body>
+  <div id="app">
+    <!-- background -->
+    <div class="backgr-main ">
+    </div>
+    <!-- header -->
+    <header class="app-header grid wide">
+      <div class="nav-header row">
+        <!-- mobile tablet -->
+        <div class="header-menu">
+          <label for="header-menu--check" class="header-menu-head">
+            <i class="header-menu__title-icon fa-solid fa-bars-staggered"></i>
+            <span class="header-menu__title">Menu</span>
+          </label>
+          <input type="checkbox" hidden id="header-menu--check" class="header-menu--checked">
+          <label for="header-menu--check" class="header-menu--overlay"></label>
+          <div class="header-menu-options">
+            <span  class="header-menu__item-title" href="">Shoe Brand</span>
+            <ul class="header-menu__list">
+                <li class="header-menu__item">
+                  <a class="header-menu__item-link" href="">Nike</a>
+                </li>
+                <li class="header-menu__item">
+                  <a class="header-menu__item-link" href="">Puma</a>
+                </li>
+              <ul class="header-menu-list">
+                <li class="header-menu__item">
+                   <a class="header-menu__item-link" href="">Jodan</a>
+                </li>
+                <li class="header-menu__item">
+                  <a class="header-menu__item-link" href="">Converse</a>
+                </li>
+                <li class="header-menu__item">
+                  <a class="header-menu__item-link" href="">Supreme</a>
+                </li>
+                <li class="header-menu__item">
+                  <a class="header-menu__item-link" href="">Adidas</a>
+                </li>
+              </ul>
+            <span class="header-menu__item-title" href="">Shoe Accessories</span>
+            <ul class="header-menu__list">
+              <li class="header-menu__item">
+                <a class="header-menu__item-link" href="">Shoelace</a>
+              </li>
+              <li class="header-menu__item">
+                <a class="header-menu__item-link" href="">Shoe insoles</a>
+              </li>
+              <li class="header-menu__item">
+                <a class="header-menu__item-link" href="">Toilet set</a>
+              </li>
+            </ul>
+          </div>      
+          <!-- <label for="header-menu--check" class="header-menu__close">
+              <i class="header-menu__close-icon fa-solid fa-angle-left"></i>
+          </label> -->
+        </div>
+        <nav class="header-navbar menu">
+            <ul class="header-navbar__list">
+             <li class="header-navbar__item">
+               <a class="header-navbar__item-link" href="">Men</a>
+             </li>
+             <li class="header-navbar__item">
+               <a class="header-navbar__item-link" href="">Women</a>
+             </li>
+            </ul>
+        </nav>
+        <!-- pc -->
+        <div class="header-navbar-brand col l-4">
+          <h3 class="header-navbar-brand__title">Shoe Brand</h3>
+          <ul class="header-navbar-brand__list">
+            <li class="header-navbar-brand__item">
+              <a class="header-navbar-brand__item-link" href="">Nike</a>
+            </li>
+            <li class="header-navbar-brand__item">
+              <a class="header-navbar-brand__item-link" href="">Adidas</a>
+            </li>
+            <li class="header-navbar-brand__item">
+              <a class="header-navbar-brand__item-link" href="">Vans</a>
+            </li>
+            <li class="header-navbar-brand__item">
+              <a class="header-navbar-brand__item-link" href="">Jodan 4</a>
+            </li>
+          </ul>
+        </div>
+        <div class="header-navbar__logo col l-2">
+          <img src="https://cdn.pixabay.com/photo/2014/04/02/10/43/sneakers-304334_960_720.png" alt="">
+          <span class="header-navbar__logo-text">An Shop</span>
+        </div>
+        <nav class="header-navbar col">
+          <ul class="header-navbar__list">
+            <li class="header-navbar__item">
+              <a class="header-navbar__item-link" href="">Log In</a>
+            </li>
+            <li class="header-navbar__item">
+              <a class="header-navbar__item-link" href="">Sign Up</a>
+            </li>
+            <li class="header-navbar__item header-navbar__item-cart" onclick="showmodal">
+              <a class="header-navbar__item-cart-icon fa-solid fa-cart-shopping"></a>
+              <div class="nav-bar__item-cart-modal">
+                <h3 class="cart-modal__title">Added Products</h3>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="app-container grid wide ">
+      <!-- search -->
+      <div class="app-container-search " >
+        <input type="text" class="search-input" id="import-search" placeholder="Search here!">
+        <i class="search-icon fa-solid fa-magnifying-glass"></i>
+        <div class="search-hitstory">
+          <ul class="search-history__list">
+            <li class="search-history__item">
+              <a id="show-history_text" class="search-history__item-link" href="">Giày nike vệt xanh</a>
+            </li>
+            <li class="search-history__item">
+              <a class="search-history__item-link" href="">Jodan đen cao cổ</a>
+            </li>
+            <li class="search-history__item">
+              <a class="search-history__item-link" href="">Vanz đen</a>
+            </li>      
+          </ul>
+        </div>
+      </div>
+      <!-- mess -->
+      <div class="app-container-main row">
+        <!-- preview -->
+        <div class="app-container-preview-product col l-9 m-6 c-12">
+          <div class="preview-product__backgr"></div>
+          <div class="preview-product__item">
+            <img class="preview-product__item-img" src="https://product.hstatic.net/200000384421/product/408452_117.png_c3c31bca7ed045368ca4973673cf6822_140c99af51534c38ac211e1635867d01.png" alt="">
+            <h1 class="preview-product__item-title">Nike</h1>
+            <div class="preview-product__item-shoe-color">
+              <span>Color</span>
+              <ul>
+                <li class="item-color red"></li>
+                <li class="item-color grenn"></li>
+                <li class="item-color blue"></li>
+              </ul>
+            </div>
+            <div class="preview-product__item-sales">
+              <span class="preview-product__item-sales-percent">45%</span>
+              <br>
+              <span class="preview-product__item-sales-title">Save Up To</span>
+              <div class="preview-product__item-name">
+                <span class="preview-product__item-name1">Nike <span class="name-red">Air</span></span>
+                <br>
+                <span class="preview-product__item-name2">Jordan 4 Retro</span>
+            </div>
+            </div>
+            <div class="preview-product__item-desc">
+              <p>Chính hãng 100% có sẵn tại Jordan 1. Giao hàng miễn phí trong 1 ngày. Cam kết đền tiền X5 nếu phát hiện Fake. Đổi trả miễn phí size. FREE vệ sinh giày trọn đời. MUA NGAY!</p>
+            </div>
+           
+          </div>
+         
+          <div class="preview-product__item-price">
+              <span class="preview-product__item-price-head">Price Range</span>
+              <br>
+              <span class="preview-product__item-price--about">$122 - 690</span>
+              <div class="preview-product__item-price-range">
+                <div class="preview-product__item-price-range1 blue"></div>
+                <div class="preview-product__item-price-range2"></div>
+                <div class="preview-product__item-price-range1 red"></div>
+              </div>
+              <input type="submit" value="Add To Bag" class="preview-product__item-price--add"></input>
+          </div>    
+        </div>
+        <!-- messenger -->
+        <div class="app-container-messenger col l-3 m-6 ">
+          <label for="chat-mess"  class="chat-mess-modal">
+              <span class="messenger-modal__title">Chat With Us!</span>
+              <i class="messenger-modal__icon fa-brands fa-facebook-messenger"></i>
+          </label>
+          <input type="checkbox" id="chat-mess" hidden class="checked-mess">
+          <div class="messenger-modal">
+            <div class="messenger-modal__show">
+              <div class="messenger-modal-head">
+                <div class="messenger-modal__with">
+                  <img class="messenger-modal__with-img" src="https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/310106913_409381681400954_7012460349824394304_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=HFlImNUg67EAX8LJl3t&_nc_ht=scontent.fhan15-1.fna&oh=00_AfD51w45dYXvVdCc8ADvUOaYI7IloGH9hYp0J6kPsfmw9g&oe=63D22AE4" alt="ảnh đại điện">
+                  <span class="msenger-modal__with-name">
+                     Nguyễn Thế An
+                  </span>
+                </div>
+                <label for="chat-mess">
+                 <i class="messenger-modal__footer-icon messenger-modal__footer-icon--close fa-solid fa-rectangle-xmark"></i>
+                </label> 
+               
+            </div>
+              <span class="messener-mesage messenger-admin">What help do you need from us?</span>
+              
+              <span class="messener-mesage messenger-asker">I can buy </span>
+              <span class="messener-mesage messenger-admin">Yes</span>
+            </div>
+            <div class="messenger-modal__footer">
+              <i class="messenger-modal__footer-icon fa-solid fa-camera"></i>
+              <input type="text" class="import-mess" placeholder="Aa">
+              <i class="messenger-modal__footer-icon fa-solid fa-paper-plane"></i>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+      <div class="app-container-sub-main row">
+        <ul class="preview-product__list-item col l-9 c-12">
+          <li class="preview-product__item-child">
+            <img class="preview-product__item-child-img" src="https://prices.vn/photos/8/blog/review-giay-nike-nam1.jpg" alt="">
+            <div class="preview-product__item-child-body">
+              <h5 class="preview-product__item-child-name">Men's Shoes</h5>
+              <span class="preview-product__item-child-price">$312 - 344</span>
+            </div>
+          </li>
+          <li class="preview-product__item-child preview-product__item-child-2">
+            <img class="preview-product__item-child-img" src="https://capvirgo.com/wp-content/uploads/2019/02/https___hypebeast-3.jpg" alt="">
+            <div class="preview-product__item-child-body">
+              <h5 class="preview-product__item-child-name">Men's Shoes</h5>
+              <span class="preview-product__item-child-price">$282 - 359</span>
+            </div>
+          </li>
+        </ul> 
+        <a href="https://www.instagram.com/nta_ann/" class="preview-product__item-folow col l-3 c-12">
+          <i class="preview-product__item-folow-icon fa-brands fa-instagram"></i>
+          <br>
+          <span class="preview-product__item-folow-text">Follow Instagram</span>
+          <img class="preview-product__item-folow-img" src="https://rubystore.com.vn/wp-content/uploads/2021/01/giay-nike-sb-dunks-dep-23.jpg" alt="">
+        </a> 
+      </div>
+    
+   
+      <!-- category -->
+    </div>
+    <!-- category -->
+    <div class="app-main grid">
+      <div class="app-main-category grid wide ">
+        <div class="category-title">More Product</div>
+        <h3 class="category-head">Category</h3>
+        <div class="category-list row ">
+            <a class="category-item col l-3 m-6 c-12" href="#">
+              <div class="category-item-content">
+                <img class="category-item__img" src="https://trungsneaker.com/wp-content/uploads/2019/09/nike-air-max-zero-3-white-791x400.png" alt="">
+                <span class="category-item__name">Jodan 3</span>
+                <p class="category-item__desc">Custom Women's Shoe</p>
+                <span class="category-item__price">$230</span>
+                <div class="category-item__add">
+                 <i class="category-item__add-icon fa-solid fa-plus"></i>
+                 <span class="category-item__add-hovershow">Add to cart</span>
+                </div>
+              </div>
+            </a>
+            <a class="category-item col l-3 m-6 c-12" href="#">
+              <div class="category-item-content">
+                <img class="category-item__img" src="https://cdn.chiaki.vn/unsafe/0x800/left/top/smart/filters:quality(75)/https://chiaki.vn/upload/product/2022/08/giay-nike-air-jordan-1-hi-fly-ease-dc7986-006-62f5d87fe96e2-12082022113511.png" alt="">
+                <span class="category-item__name">Giày Nike Air Jordan 1</span>
+                <p class="category-item__desc">Siêu cấp vip bờ rồ nha anh em</p>
+                <span class="category-item__price">$400</span>
+                <div class="category-item__add">
+                 <i class="category-item__add-icon fa-solid fa-plus"></i>
+                 <span class="category-item__add-hovershow">Add to cart</span>
+                </div>
+              </div>
+            </a>
+            <a class="category-item col l-3 m-6 c-12" href="#">
+              <div class="category-item-content">
+                <img class="category-item__img" src="https://vn-test-11.slatic.net/p/20dc2567030305f7d799bdfc22386917.png" alt="">
+                <span class="category-item__name">Nike AF1 Xanh Mint</span>
+                <p class="category-item__desc">Giày chống thối chân cho anh em</p>
+                <span class="category-item__price">$190</span>
+                <div class="category-item__add">
+                 <i class="category-item__add-icon fa-solid fa-plus"></i>
+                 <span class="category-item__add-hovershow">Add to cart</span>
+                </div>
+              </div>
+            </a>
+            <a class="category-item col l-3 m-6 c-12" href="#">
+              <div class="category-item-content">
+                <img class="category-item__img" src="https://img.my-best.vn/press_eye_catches/747f77780cf5fb89a0d1303bc145177b.png?ixlib=rails-4.2.0&q=70&lossless=0&w=1400&h=787&fit=crop&s=e0135dbfca3c139d9f6a9efbca117731" alt="">
+                <span class="category-item__name">Converse Chuck Taylor All Star</span>
+                <p class="category-item__desc">Ủng chân đi ruộng hàng ngày</p>
+                <span class="category-item__price">$310</span>
+                <div class="category-item__add">
+                 <i class="category-item__add-icon fa-solid fa-plus"></i>
+                 <span class="category-item__add-hovershow">Add to cart</span>
+                </div>
+              </div>
+            </a>
+        </div>  
+      </div>
+    </div>
+    <!-- about -->
+    <div class="app-about grid">
+      <div class="app-about-explore grid wide ">
+        <div class="app-about-explore-head row ">
+          <div class="explore-head__name col l-4 c-12">
+            <h1 class="explore-head__name-main">Explore More</h1>
+            <h1 class="explore-head__name-main">From Air Max SC</h1>
+          </div>
+          <p class="explore-head__desc col l-8 c-12">
+            We are seeing volatility in global supply chains, and  are unable  to  guarantee  festive season delivery.
+          </p>
+        </div>
+        <div class="app-about-explore-content row ">
+          <div class="app-about-explore-content__img col l-6 m-6 c-12 ">
+            <img src="https://giaysecondhand.com/wp-content/uploads/2019/11/3.Nike-Air-Max-97-doc-la-1024x683.jpg" alt="">
+          </div>
+          <div class="app-about-explore-content__img col l-6  m-6 c-12">
+            <img src="https://khogiaythethao.vn/wp-content/uploads/2019/04/nike-jordan-4-2019-1024x546.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="app-footer grid  ">
+      <div class="app-footer-container grid wide ">
+        <div class="app-footer-main row ">
+          <div class="app-footer-main-contact col l-6 m-6 c-12 ">
+          <h2 class="footer-main-contact__title">Just Do It Now</h2>
+          <div class="footer-main-contact__list">
+            <span class="footer-main-contact__list-title">Follow Us:</span>
+            <a class="footer-main-contact__item" href="#">
+              <i class="footer-main-contact__item-icon fa-brands fa-facebook"></i>
+            </a>
+            <a class="footer-main-contact__item-icon footer-main-contact__item" href="#">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a class="footer-main-contact__item-icon footer-main-contact__item" href="#">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </div>
+          </div>
+          <div class="app-footer-main-feedback col l-6 m-6 c-12">
+          <div class="footer-main-feedback__list-title">
+            <a class="footer-main-feedback__item" href="">
+              New Releases
+            </a>
+            <a class="footer-main-feedback__item " href="">
+              Men
+            </a>
+            <a class="footer-main-feedback__item " href="">
+              Women
+            </a>
+            <a class="footer-main-feedback__item" href="">
+              Kids
+            </a>
+          </div>
+          <div class="footer-main-feedback__input">
+            <input class="footer-main-feedback__import" type="email" placeholder="Your email">
+            <i class="footer-main-feedback__input-icon fa-solid fa-paper-plane"></i>
+          </div>
+          </div>
+        </div>
+        <div class="app-footer-copy-right">
+          <span>Copy right <sup class="app-footer-copy-right__text-red">@2022</sup> Design by Dev An</span>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="./app.js"></script>  
+</body>
+</html>
