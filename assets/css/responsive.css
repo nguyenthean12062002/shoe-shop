@@ -46,6 +46,15 @@
     left:calc(100% + 10px);
     
   }
+  .preview-product__item-folow{
+    display: flex;
+    align-items: center;
+  }
+  .preview-product__item-folow-img{
+    width: 140px;
+    height: 140px;
+    margin-left: 10px;
+  }
   .chat-mess-modal{
     width: 100px;
     top: -100px;
