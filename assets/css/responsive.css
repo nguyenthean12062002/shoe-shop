@@ -1,3 +1,4 @@
+/* pc and more display */
 @media (min-width: 1024px){
     .header-menu{
         display: none;
@@ -12,9 +13,46 @@
     }
     
 }
+/*  */
+/* tablet */
 @media (min-width :724px ) and (max-width :1023px){
-  
+    .header-navbar__logo > img{
+        width: 50%;
+    }
+    .app-container-search{
+        top: 17%;
+    }
+    .search-input{
+        width: 260px;
+    }
+  .preview-product__item-name{
+    width: 100px;
+    font-size: 2rem;
+    top: -35px;
+    left: 100px;
+  }
+  .preview-product__item-name2{
+    font-size: 1.8rem;
+  }
+  .preview-product__item-img{
+    left: 5%;
+  }
+  .preview-product__item-sales{
+    width: 80px;
+    height: 36px;
+    font-size: 0.8rem;
+  }
+  .preview-product__item-price{
+    left:calc(100% + 10px);
+    
+  }
+  .chat-mess-modal{
+    width: 100px;
+    top: -100px;
+    right: -70%;
+  }
 }
+/* mobile */
 @media(max-width :723px){
   .search-icon{
     display: none;
